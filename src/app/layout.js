@@ -1,3 +1,5 @@
+import Footer from "./components/partials/footer";
+import Navbar from "./components/partials/navbar";
 import "./globals.css";
 
 export const metadata = {
@@ -8,7 +10,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="tr">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

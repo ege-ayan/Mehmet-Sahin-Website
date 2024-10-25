@@ -1,3 +1,9 @@
+import HomeOpening from "./sections/home-opening";
+
 export default function Home() {
-  return <div>HELLO WORLD!!</div>;
+  return (
+    <div>
+      <HomeOpening />
+    </div>
+  );
 }
