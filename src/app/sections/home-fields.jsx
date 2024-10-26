@@ -27,7 +27,7 @@ export default function HomeFields() {
       </div>
       <div className="container flex flex-wrap gap-10 items-center justify-center p-5">
         {fields.map((field, index) => (
-          <div key={index} className="w-full md:max-w-[700px]">
+          <div key={index} className="w-full md:max-w-[600px]">
             <div
               className="relative w-full"
               style={{ paddingBottom: "56.25%" }}

@@ -9,8 +9,7 @@ export default function FieldCard({ title, imageUrl, href }) {
           src={imageUrl}
           alt={title}
           fill
-          objectFit="cover"
-          className="transition-transform duration-500 group-hover:scale-110"
+          className="transition-transform duration-500 group-hover:scale-110 object-cover"
           priority
           quality={100}
         />
