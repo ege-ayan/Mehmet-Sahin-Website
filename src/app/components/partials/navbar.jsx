@@ -10,8 +10,8 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="bg-black/60 text-white w-full py-6 backdrop-blur-md shadow-lg fixed z-50">
-      <div className="container mx-auto flex items-center justify-between px-4">
+    <nav className="bg-black/60 text-white w-full py-6 backdrop-blur-md shadow-lg fixed ">
+      <div className="container mx-auto flex items-center justify-between px-4 z-50">
         {/* Logo */}
         <div className="text-2xl font-bold">
           <Link href="/">
@@ -65,7 +65,7 @@ export default function Navbar() {
         </div>
 
         {/* Mobile Menu Button */}
-        <div className="md:hidden">
+        <div className="md:hidden z-40">
           <button
             onClick={() => setNavOpen(!navOpen)}
             aria-label="Toggle navigation"
@@ -77,7 +77,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed inset-x-0 top-0 z-40 transform ${
+        className={`fixed inset-x-0 top-0 transform ${
           navOpen ? "translate-y-0" : "-translate-y-full"
         } bg-black/80 text-white space-y-6 px-6 py-8 backdrop-blur-md transition-transform duration-300 ease-in-out`}
       >
