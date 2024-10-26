@@ -76,13 +76,17 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Menu */}
-      {navOpen && (
-        <ul className="md:hidden bg-blue-800/90 text-white space-y-4 px-4 py-6 backdrop-blur-md">
+      <div
+        className={`fixed inset-x-0 top-0 z-40 transform ${
+          navOpen ? "translate-y-0" : "-translate-y-full"
+        } bg-black/80 text-white space-y-6 px-6 py-8 backdrop-blur-md transition-transform duration-300 ease-in-out`}
+      >
+        <ul className="flex mt-20 flex-col items-center space-y-4 text-lg font-medium z-20">
           <li>
             <Link
               href="/about"
               onClick={() => setNavOpen(false)}
-              className={`block ${
+              className={`${
                 pathname === "/about" ? "font-bold text-yellow-300" : ""
               } hover:text-yellow-300 transition duration-300`}
             >
@@ -93,7 +97,7 @@ export default function Navbar() {
             <Link
               href="/contact"
               onClick={() => setNavOpen(false)}
-              className={`block ${
+              className={`${
                 pathname === "/contact" ? "font-bold text-yellow-300" : ""
               } hover:text-yellow-300 transition duration-300`}
             >
@@ -104,7 +108,7 @@ export default function Navbar() {
             <Link
               href="/video"
               onClick={() => setNavOpen(false)}
-              className={`block ${
+              className={`${
                 pathname === "/video" ? "font-bold text-yellow-300" : ""
               } hover:text-yellow-300 transition duration-300`}
             >
@@ -119,7 +123,7 @@ export default function Navbar() {
             </Link>
           </li>
         </ul>
-      )}
+      </div>
     </nav>
   );
 }
