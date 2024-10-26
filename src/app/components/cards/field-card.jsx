@@ -10,8 +10,8 @@ export default function FieldCard({ title, imageUrl, href }) {
           alt={title}
           fill
           className="transition-transform duration-500 group-hover:scale-110 object-cover"
-          priority
           quality={100}
+          priority
         />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-50"></div>
         <h2 className="absolute bottom-8 left-8 text-white text-3xl font-semibold z-10">

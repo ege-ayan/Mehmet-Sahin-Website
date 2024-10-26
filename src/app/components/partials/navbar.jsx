@@ -19,7 +19,7 @@ export default function Navbar() {
         <ul className="hidden md:flex space-x-8">
           <li>
             <Link
-              href="/hakkimda"
+              href="/about"
               className="hover:text-gray-300 transition duration-300"
             >
               Hakkımda
@@ -27,7 +27,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="/iletisim"
+              href="/contact"
               className="hover:text-gray-300 transition duration-300"
             >
               İletişim
@@ -65,7 +65,7 @@ export default function Navbar() {
         <ul className="md:hidden  text-white space-y-4 px-4 py-6">
           <li>
             <Link
-              href="/hakkimda"
+              href="/about"
               onClick={() => setNavOpen(false)}
               className="block hover:text-gray-300 transition duration-300"
             >
@@ -74,7 +74,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="/iletisim"
+              href="/contact"
               onClick={() => setNavOpen(false)}
               className="block hover:text-gray-300 transition duration-300"
             >

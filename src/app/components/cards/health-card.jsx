@@ -11,6 +11,7 @@ export default function HealthCard({ title, imageUrl, href, description }) {
             alt={title}
             width={400}
             height={300}
+            priority
             className="object-cover w-full h-52"
           />
           <div className="p-4">
