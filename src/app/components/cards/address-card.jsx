@@ -1,5 +1,5 @@
 import React from "react";
-import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { FaPhoneAlt, FaEnvelope, FaInstagram, FaGlobe } from "react-icons/fa";
 
 export default function AddressCard() {
   return (
@@ -13,14 +13,41 @@ export default function AddressCard() {
           <br />
           Çukurambar Çankaya, ANKARA
         </p>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-xl lg:text-2xl">
+        <div className="flex flex-col items-center justify-center gap-4 text-xl lg:text-2xl">
           <div className="flex items-center gap-2">
             <FaPhoneAlt />
             <span>444 6 662</span>
           </div>
           <div className="flex items-center gap-2">
             <FaEnvelope />
-            <span>info@koruhospital.com</span>
+            <a
+              href="mailto:mehmet_sahintr@yahoo.com"
+              className="hover:underline"
+            >
+              mehmet_sahintr@yahoo.com
+            </a>
+          </div>
+          <div className="flex items-center gap-2">
+            <FaInstagram />
+            <a
+              href="https://www.instagram.com/dr.mehmet.sahin"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              dr.mehmet.sahin
+            </a>
+          </div>
+          <div className="flex items-center gap-2">
+            <FaGlobe />
+            <a
+              href="https://www.doktortakvimi.com/mehmet-sahin-2/goz-hastaliklari/ankara"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              Doktor Takvimi
+            </a>
           </div>
         </div>
       </div>

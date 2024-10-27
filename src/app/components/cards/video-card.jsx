@@ -9,7 +9,7 @@ export default function VideoCard({ title, videosrc }) {
   const closeModal = () => setIsModalOpen(false);
 
   return (
-    <div className="flex flex-col items-center justify-center text-center w-full h-full  p-6 bg-gradient-to-b from-blue-500 to-indigo-800 rounded-lg shadow-lg">
+    <div className="flex flex-col items-center justify-center text-center w-full h-full gap-5  p-6 bg-gradient-to-b from-blue-500 to-indigo-800 rounded-lg shadow-lg">
       <h3 className="text-xl font-semibold text-white">{title}</h3>
 
       <button
