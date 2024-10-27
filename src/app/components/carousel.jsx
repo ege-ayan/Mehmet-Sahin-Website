@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import cardsData from "../constants/health";
+import cardsData from "../content/health";
 import HealthCard from "./cards/health-card";
 
 export default function Carousel() {

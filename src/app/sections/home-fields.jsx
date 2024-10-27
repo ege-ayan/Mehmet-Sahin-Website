@@ -1,5 +1,5 @@
 import FieldCard from "../components/cards/field-card";
-import fields from "../constants/fields";
+import fields from "../content/fields";
 
 export default function HomeFields() {
   return (
