@@ -34,7 +34,7 @@ export default function ImageCard({ imagesrc, alt = "Image" }) {
               className="absolute top-4 right-4 text-white text-2xl z-10 hover:text-gray-300 transition duration-300"
               aria-label="Close image"
             >
-              <FiX className="bg-black sm:h-12 sm:w-12 rounded-xl" />
+              <FiX className="bg-black sm:h-10 sm:w-10 rounded-xl" />
             </button>
 
             <Image

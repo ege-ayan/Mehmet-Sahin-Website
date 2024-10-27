@@ -35,7 +35,7 @@ export default function VideoGallery() {
         <div className="w-full lg:w-1/4 h-[200px]">
           <VideoCard
             title={"Makula Dejenerasyonu"}
-            videosrc={"/videos/yblg.mp4"}
+            videosrc={"/videos/ybmd.mp4"}
           />
         </div>
         <div className="w-full lg:w-1/4 h-[200px]">

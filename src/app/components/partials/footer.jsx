@@ -55,7 +55,7 @@ export default function Footer() {
 
       <div className="border-t border-blue-700 mt-8 pt-4">
         <p className="text-center text-white text-sm">
-          © {new Date().getFullYear()} Tüm Hakları Saklıdır.
+          © {new Date().getFullYear()} Mehmet Şahin. Tüm Hakları Saklıdır.
         </p>
       </div>
     </footer>
