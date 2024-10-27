@@ -21,3 +21,12 @@
   scrollbar-width: thin;
   scrollbar-color: blue white;
 }
+/* Customize Swiper scrollbar */
+.swiper-scrollbar {
+  background: white !important;
+}
+
+.swiper-scrollbar-drag {
+  background: blue !important;
+  border-radius: 10px;
+}

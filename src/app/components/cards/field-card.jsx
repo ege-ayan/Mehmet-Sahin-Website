@@ -13,7 +13,7 @@ export default function FieldCard({ title, imageUrl, href }) {
           quality={100}
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-50"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-100"></div>
         <h2 className="absolute bottom-8 left-8 text-white text-3xl font-semibold z-10">
           {title}
         </h2>

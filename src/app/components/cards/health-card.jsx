@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function HealthCard({ title, imageUrl, href, description }) {
   return (
-    <div className="border rounded-lg overflow-hidden w-80 shadow-lg">
+    <div className="border rounded-lg overflow-hidden w-80 shadow-lg select-none">
       <Link href={href} passHref>
         <div className="text-gray-900 no-underline">
           <Image

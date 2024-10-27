@@ -3,7 +3,7 @@ import fields from "../constants/fields";
 
 export default function HomeFields() {
   return (
-    <div className="flex flex-col gap-5 items-center py-16 justify-center">
+    <div className="flex flex-col gap-5 items-center  py-5 sm:py-16 justify-center">
       <div className="text-gray-900 text-3xl md:text-5xl font-bold text-center">
         UZMANLIK ALANLARI
       </div>

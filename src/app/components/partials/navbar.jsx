@@ -132,7 +132,7 @@ export default function Navbar() {
               "/about"
             )}`}
           >
-            Hakkılga
+            HAKKIMDA
           </Link>
           <Link
             href="/contact"
@@ -141,16 +141,16 @@ export default function Navbar() {
               "/contact"
             )}`}
           >
-            İletişim
+            İLETİŞİM
           </Link>
           <Link
-            href="/video"
+            href="/gallery"
             onClick={() => setIsOpen(false)}
             className={`transition-all duration-300 ease-in-out hover:font-bold hover:text-blue-950 ${isActive(
               "/video"
             )}`}
           >
-            Video
+            GALERİ
           </Link>
 
           <Link

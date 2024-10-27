@@ -11,17 +11,17 @@ import {
 
 export default function AboutContent() {
   return (
-    <main className="bg-gradient-to-r from-blue-600 to-blue-900 w-full flex px-5 py-20 flex-col items-center">
-      <article className="container flex flex-col items-center justify-center md:gap-12">
-        <header className="text-white text-3xl md:text-5xl font-bold text-center tracking-wide mb-10">
+    <main className="bg-gradient-to-r from-blue-600 to-blue-900 w-full flex px-5 pt-32 sm:pt-44 pb-20 flex-col items-center">
+      <article className="container flex flex-col items-center justify-center lg:gap-12">
+        <header className="text-white text-3xl lg:text-5xl font-bold text-center tracking-wide mb-10">
           <h1>HAKKIMDA</h1>
         </header>
 
         <section
           aria-labelledby="personal-info"
-          className="flex flex-col-reverse md:flex-row items-center justify-between gap-10 md:gap-12"
+          className="flex flex-col-reverse lg:flex-row items-center justify-between gap-10 lg:gap-12"
         >
-          <div className="flex flex-col w-full md:w-2/3 justify-center text-white space-y-6 text-xl md:text-2xl leading-relaxed">
+          <div className="flex flex-col w-full lg:w-2/3 justify-center text-white space-y-6 text-xl lg:text-2xl leading-relaxed">
             <h2 id="personal-info" className="sr-only">
               Kişisel Bilgiler
             </h2>
@@ -54,7 +54,7 @@ export default function AboutContent() {
             </p>
           </div>
 
-          <figure className="w-full md:w-1/3 flex justify-center">
+          <figure className="w-full lg:w-1/3 flex justify-center">
             <Image
               src="/images/about.jpg"
               alt="Mehmet Şahin's Profile"
@@ -69,9 +69,9 @@ export default function AboutContent() {
 
         <section
           aria-labelledby="expertise"
-          className="flex flex-col-reverse md:flex-row items-center justify-between gap-10 md:gap-24 mt-16"
+          className="flex flex-col-reverse lg:flex-row items-center justify-between gap-10 lg:gap-24 lg:mt-16"
         >
-          <figure className="w-full md:w-1/3 flex justify-center">
+          <figure className="w-full lg:w-1/3 flex justify-center">
             <Image
               src="/images/about-2.jpg"
               alt="Mehmet Şahin at work"
@@ -83,7 +83,7 @@ export default function AboutContent() {
             />
           </figure>
 
-          <div className="flex flex-col w-full md:w-2/3 justify-center text-white space-y-6 text-xl md:text-2xl leading-relaxed">
+          <div className="flex flex-col w-full lg:w-2/3 justify-center text-white space-y-6 text-xl lg:text-2xl leading-relaxed">
             <h2 id="expertise" className="sr-only">
               Uzmanlık Alanı
             </h2>
