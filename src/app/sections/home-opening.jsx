@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HomeOpening() {
   return (
-    <section className="bg-gradient-to-r from-blue-600 to-blue-900 w-full py-32 flex items-center">
+    <section className="bg-gradient-to-r from-blue-600 to-blue-900 w-full pt-44 py-32 flex items-center">
       <div className="container mx-auto flex gap-10 flex-col md:flex-row items-center px-4">
         <div className="w-full md:w-1/2 flex justify-center md:justify-start mb-4 md:mb-0">
           <div className="rounded-xl shadow-lg overflow-hidden ">

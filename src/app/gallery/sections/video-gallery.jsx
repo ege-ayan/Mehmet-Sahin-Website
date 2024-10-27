@@ -3,12 +3,11 @@ import VideoCard from "@/app/components/cards/video-card";
 export default function VideoGallery() {
   return (
     <div className="flex flex-col justify-center gap-10">
-      <div className="flex flex-col items-center  justify-center">
-        <div>VİDEO GALERİSİ</div>
-        <div
-          className="relative flex items-center w-2/3 h-0"
-          style={{ paddingBottom: "40.25%" }}
-        >
+      <div className="flex flex-col gap-10 items-center justify-center">
+        <div className="text-gray-900 text-3xl md:text-5xl font-bold text-center">
+          VİDEO GALERİSİ
+        </div>
+        <div className="relative w-full md:w-2/3 aspect-video">
           <iframe
             className="absolute top-0 left-0 w-full h-full"
             src="https://www.youtube.com/embed/Vl-s1JspmYc"
@@ -19,6 +18,7 @@ export default function VideoGallery() {
         </div>
       </div>
 
+      {/* Video Cards Section */}
       <section className="flex flex-wrap w-full gap-5 items-center justify-center">
         <div className="w-full md:w-1/4 h-[200px]">
           <VideoCard
