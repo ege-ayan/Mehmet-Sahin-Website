@@ -18,9 +18,8 @@ export default function ImageCard({ imagesrc, alt = "Image" }) {
         <Image
           src={imagesrc}
           alt={alt}
-          layout="fill"
-          objectFit="cover"
-          className="rounded-lg shadow-lg transition-transform duration-300 sm:hover:scale-105"
+          fill
+          className="rounded-lg object-cover shadow-lg transition-transform duration-300 sm:hover:scale-105"
         />
       </div>
 
@@ -35,15 +34,14 @@ export default function ImageCard({ imagesrc, alt = "Image" }) {
               className="absolute top-4 right-4 text-white text-2xl z-10 hover:text-gray-300 transition duration-300"
               aria-label="Close image"
             >
-              <FiX />
+              <FiX className="bg-black sm:h-12 sm:w-12 rounded-xl" />
             </button>
 
             <Image
               src={imagesrc}
               alt={alt}
-              layout="fill"
-              objectFit="cover"
-              className="rounded-lg"
+              fill
+              className="rounded-lg object-cover"
               priority
             />
           </div>
