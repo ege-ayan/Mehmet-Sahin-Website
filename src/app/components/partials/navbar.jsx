@@ -56,7 +56,7 @@ export default function Navbar() {
             </span>
             <div className="border-t-2 border-blue-300 mt-1 w-full" />
             <span className="text-xs lg:text-sm text-blue-300 mt-1">
-              KATARAKT VE REFRAKTİF CERRAHİSİ (EXCIMER LASER)
+              KATARAKT VE REFRAKTİF CERRAHİ (EXCIMER LAZER)
             </span>
           </div>
         </Link>

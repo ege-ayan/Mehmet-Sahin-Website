@@ -2,7 +2,7 @@ import BlogPage from "@/app/components/blog-page";
 
 export default function Katarakt() {
   return (
-    <BlogPage title="KATARAKT NEDİR" imageSrc="/images/health-katarakt.jpg">
+    <BlogPage title="KATARAKT CERRAHİSİ" imageSrc="/images/field-retina.jpg">
       <p>
         Katarakt, göz bebeğinin arkasında bulunan ve görmeye yardımcı göz
         merceğinin saydamlığını kaybederek matlaşmasıdır. Başka bir deyişle

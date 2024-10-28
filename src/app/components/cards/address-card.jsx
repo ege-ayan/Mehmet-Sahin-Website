@@ -1,5 +1,12 @@
 import React from "react";
-import { FaPhoneAlt, FaEnvelope, FaInstagram, FaGlobe } from "react-icons/fa";
+import Link from "next/link";
+import {
+  FaPhoneAlt,
+  FaEnvelope,
+  FaInstagram,
+  FaGlobe,
+  FaCalendarAlt,
+} from "react-icons/fa";
 
 export default function AddressCard() {
   return (
@@ -20,34 +27,46 @@ export default function AddressCard() {
           </div>
           <div className="flex items-center gap-2">
             <FaEnvelope />
-            <a
+            <Link
               href="mailto:mehmet_sahintr@yahoo.com"
               className="hover:underline"
             >
               mehmet_sahintr@yahoo.com
-            </a>
+            </Link>
           </div>
           <div className="flex items-center gap-2">
             <FaInstagram />
-            <a
+            <Link
               href="https://www.instagram.com/dr.mehmet.sahin"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline"
             >
               dr.mehmet.sahin
-            </a>
+            </Link>
           </div>
           <div className="flex items-center gap-2">
-            <FaGlobe />
-            <a
+            <FaCalendarAlt />
+
+            <Link
               href="https://www.doktortakvimi.com/mehmet-sahin-2/goz-hastaliklari/ankara"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline"
             >
               Doktor Takvimi
-            </a>
+            </Link>
+          </div>
+          <div className="flex items-center gap-2">
+            <FaGlobe />
+            <Link
+              href="https://www.doktorsitesi.com/op-dr-mehmet-sahin/goz-hastaliklari/ankara"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              Doktor Sitesi
+            </Link>
           </div>
         </div>
       </div>

@@ -8,10 +8,10 @@ export default function Contact() {
         İLETİŞİM
       </div>
       <div className="container flex flex-col xl:flex-row justify-center items-center gap-6 xl:gap-12">
-        <div className="h-[350px] xl:h-[500px] w-full xl:w-1/2">
+        <div className="h-[400px] xl:h-[500px] w-full xl:w-1/2">
           <Map />
         </div>
-        <div className="h-[350px] xl:h-[500px] w-full xl:w-1/2">
+        <div className="h-[400px] xl:h-[500px] w-full xl:w-1/2">
           <AddressCard />
         </div>
       </div>

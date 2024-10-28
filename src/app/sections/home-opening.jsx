@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function HomeOpening() {
   return (
     <section className="bg-gradient-to-r from-blue-600 to-blue-900 w-full pt-44 py-32 flex items-center">
-      <div className="container mx-auto flex gap-10 flex-col xl:flex-row items-center px-4">
+      <div className="container mx-auto flex gap-10 flex-col xl:flex-row items-center px-5">
         <div className="w-full xl:w-1/2 flex justify-center xl:justify-start mb-4 xl:mb-0">
-          <div className="rounded-xl shadow-xl overflow-hidden ">
+          <div className="rounded-xl mb:shadow-xl overflow-hidden px-8">
             <Image
               src="/images/homepage-opening.jpg"
               alt="OP. DR. MEHMET ŞAHİN"

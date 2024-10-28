@@ -3,7 +3,7 @@ import BlogPage from "@/app/components/blog-page";
 export default function ExcimerLaser() {
   return (
     <BlogPage
-      title="REFRAKTİF CERRAHİ (EXCIMER LASER)"
+      title="REFRAKTİF CERRAHİ (EXCIMER LAZER)"
       imageSrc="/images/health-excimer-laser.jpg"
     >
       <>

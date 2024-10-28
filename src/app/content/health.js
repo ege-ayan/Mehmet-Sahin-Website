@@ -49,8 +49,8 @@ const cardsData = [
       "Gözün bu bölümü ile ilgilenen branşı oküloplastidir. Göz kapağı, göz yaşı yolları ve göz çukuru ile ilgili hastalıklar tedavi alanlarıdır.Göz K...",
   },
   {
-    title: "Katarakt Nedir?",
-    imageUrl: "/images/health-katarakt.jpg",
+    title: "Katarakt Cerrahisi",
+    imageUrl: "/images/field-retina.jpg",
     href: "/blogs/katarakt",
     description:
       "Katarakt nedir? Nasıl tedavi edilir? Katarakt, göz bebeğinin arkasında bulunan ve görmeye yardımcı göz merceğinin saydamlığını kaybederek matlaşmasıdır…",
@@ -96,6 +96,18 @@ const cardsData = [
     href: "/blogs/keratokonus",
     description:
       "KeratokonusKornea gözümüzün en ön tarafındaki saydam tabakadır ve gözün birinci optik tabakasıdır. Keratokonus, kornea tabakasının hem incelmesi he...",
+  },
+  {
+    title: "Akıllı Lens",
+    imageUrl: "/images/smart-lens.jpg",
+    href: "/blogs/smart-lens",
+    description:
+      "Akıllı mercek yakın, orta ve uzak mesafelerde kesintisiz net görüş sağlayan üç odaklı (trifokal) merceklerdir. Katarakt cerrahisi sonrası uygun...",
+  },
+  {
+    title: "Glokom",
+    imageUrl: "/images/field-excimer-laser.jpg",
+    href: "/blogs/glokom",
   },
 ];
 
