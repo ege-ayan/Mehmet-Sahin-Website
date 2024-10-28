@@ -82,6 +82,17 @@ export default function Navbar() {
               HAKKIMDA
             </Link>
           </div>
+
+          <div className="text-center">
+            <Link
+              href="/blogs"
+              className={`transition-all duration-300 ease-in-out hover:text-blue-400  ${isActive(
+                "/blogs"
+              )}`}
+            >
+              SAĞLIK KÖŞESİ
+            </Link>
+          </div>
           <div className="text-center">
             <Link
               href="/contact"
@@ -92,30 +103,7 @@ export default function Navbar() {
               İLETİŞİM
             </Link>
           </div>
-          <div className="text-center">
-            <Link
-              href="/gallery"
-              className={`transition-all duration-300 ease-in-out hover:text-blue-400  ${isActive(
-                "/gallery"
-              )}`}
-            >
-              GALERİ
-            </Link>
-          </div>
         </div>
-
-        <Link
-          href="https://www.doktortakvimi.com/mehmet-sahin-2/goz-hastaliklari/ankara"
-          target="_blank"
-          onClick={() => setIsOpen(false)}
-          className="hidden lg:flex rounded-[40px] px-5 py-3 text-center transition-all duration-300 ease-in-out hover:scale-105"
-          style={{
-            background:
-              "linear-gradient(225deg, #3B82F6 14.89%, #1E40AF 85.85%)", // Blue gradient
-          }}
-        >
-          <p className="font-semibold text-sm text-white">RANDEVU AL</p>
-        </Link>
       </div>
 
       <div
@@ -134,6 +122,16 @@ export default function Navbar() {
           >
             HAKKIMDA
           </Link>
+
+          <Link
+            href="/blogs"
+            onClick={() => setIsOpen(false)}
+            className={`transition-all duration-300 ease-in-out hover:font-bold hover:text-blue-950 ${isActive(
+              "/blogs"
+            )}`}
+          >
+            SAĞLIK KÖŞESİ
+          </Link>
           <Link
             href="/contact"
             onClick={() => setIsOpen(false)}
@@ -142,28 +140,6 @@ export default function Navbar() {
             )}`}
           >
             İLETİŞİM
-          </Link>
-          <Link
-            href="/gallery"
-            onClick={() => setIsOpen(false)}
-            className={`transition-all duration-300 ease-in-out hover:font-bold hover:text-blue-950 ${isActive(
-              "/video"
-            )}`}
-          >
-            GALERİ
-          </Link>
-
-          <Link
-            href="https://www.doktortakvimi.com/mehmet-sahin-2/goz-hastaliklari/ankara"
-            target="_blank"
-            onClick={() => setIsOpen(false)}
-            className="rounded-[40px] px-5 py-3 text-center transition-all duration-300 ease-in-out"
-            style={{
-              background:
-                "linear-gradient(225deg, #3B82F6 14.89%, #1E40AF 85.85%)", // Blue gradient
-            }}
-          >
-            <p className="font-semibold text-sm text-white">RANDEVU AL</p>
           </Link>
         </div>
       </div>

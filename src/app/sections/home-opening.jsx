@@ -25,7 +25,7 @@ export default function HomeOpening() {
             </span>
           </h1>
           <p className="text-2xl font-light tracking-wide text-blue-200">
-            KATARAKT VE REFRAKTİF CERRAHİSİ (EXCIMER LASER)
+            KATARAKT VE REFRAKTİF CERRAHİ (EXCIMER LAZER)
           </p>
         </div>
       </div>

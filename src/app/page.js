@@ -9,7 +9,6 @@ export default function Home() {
       <HomeOpening />
       <HomeFields />
       <HomeVideos />
-      <HomeHealth />
     </div>
   );
 }

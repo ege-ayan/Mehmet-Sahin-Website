@@ -18,15 +18,6 @@ export default function HomeVideos() {
             allowFullScreen
           ></iframe>
         </div>
-
-        {/* Hyperlink */}
-
-        <Link
-          href="/gallery"
-          className="bg-white text-black sm:text-xl font-semibold px-6 py-3 rounded-full transition-transform transform hover:scale-105"
-        >
-          DAHA FAZLA
-        </Link>
       </div>
     </section>
   );
