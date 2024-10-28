@@ -24,7 +24,7 @@ export default function Footer() {
         <div className="flex flex-col gap-4 text-lg md:ml-8">
           <div className="flex items-center gap-2 justify-center md:justify-start">
             <FaPhoneAlt />
-            <span>444 6 662</span>
+            <span>0312 911 77 77</span>
           </div>
           <div className="flex items-center gap-2 justify-center md:justify-start">
             <FaEnvelope />

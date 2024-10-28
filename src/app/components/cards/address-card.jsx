@@ -23,7 +23,7 @@ export default function AddressCard() {
         <div className="flex flex-col items-center justify-center gap-4 text-xl lg:text-2xl">
           <div className="flex items-center gap-2">
             <FaPhoneAlt />
-            <span>444 6 662</span>
+            <span>0312 911 77 77</span>
           </div>
           <div className="flex items-center gap-2">
             <FaEnvelope />
