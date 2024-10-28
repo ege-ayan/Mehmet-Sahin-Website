@@ -74,6 +74,16 @@ export default function Navbar() {
         <div className="hidden lg:flex justify-around text-white gap-12 font-semibold ">
           <div className="text-center">
             <Link
+              href="/"
+              className={`transition-all duration-300 ease-in-out hover:text-blue-400 ${isActive(
+                "/"
+              )}`}
+            >
+              ANA SAYFA
+            </Link>
+          </div>
+          <div className="text-center">
+            <Link
               href="/about"
               className={`transition-all duration-300 ease-in-out hover:text-blue-400 ${isActive(
                 "/about"
@@ -113,6 +123,15 @@ export default function Navbar() {
         style={{ backgroundColor: "hsla(0, 0%, 9%, 0.4)" }}
       >
         <div className="flex flex-col items-center gap-5 py-5">
+          <Link
+            href="/"
+            onClick={() => setIsOpen(false)}
+            className={`transition-all duration-300 ease-in-out hover:font-bold hover:text-blue-400 ${isActive(
+              "/"
+            )}`}
+          >
+            ANA SAYFA
+          </Link>
           <Link
             href="/about"
             onClick={() => setIsOpen(false)}
