@@ -98,7 +98,7 @@ const cardsData = [
       "KeratokonusKornea gözümüzün en ön tarafındaki saydam tabakadır ve gözün birinci optik tabakasıdır. Keratokonus, kornea tabakasının hem incelmesi he...",
   },
   {
-    title: "Akıllı Lens",
+    title: "Akıllı Mercek",
     imageUrl: "/images/smart-lens.jpg",
     href: "/blogs/smart-lens",
     description:
@@ -108,6 +108,8 @@ const cardsData = [
     title: "Glokom",
     imageUrl: "/images/field-excimer-laser.jpg",
     href: "/blogs/glokom",
+    description:
+      "Halk arasında göz tansiyonu ve karasu hastalığı olarak da bilinen glokom sık görülen bir göz hastalığıdir ve dünyada en önemli kalıcı körlük nedenidir.",
   },
 ];
 
